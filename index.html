@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Craftivo Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Craftivo
+  * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
+  * Updated: Oct 04 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">CHATON</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#resume">Nuestros gatos</a></li>
+          <li><a href="#services">Cuidados</a></li>
+          <li><a href="#¿Estas listx para tener un gato?">¿Estoy listx para tener un gato?</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a href="index.html" class="btn-getstarted">₍^. .^₎Ⳋ / ≽^•⩊•^≼</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/profile/Cats.jpeg" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>Welcome to Chaton</h2>
+            <p>Cats are <span class="typed" data-typed-items="Lovely, Softy, Cuties"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+  
+          </div>
+        </div>
+      </div>  
+
+    </section><!-- /Hero Section -->
+
+   <style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0f0f0f;
+  color:#ffffff;
+}
+
+section{
+  padding:80px 10%;
+}
+
+h2{
+  text-align:center;
+  font-size:36px;
+  margin-bottom:60px;
+}
+
+h3{
+  margin:15px 0;
+}
+
+p{
+  color:#cfcfcf;
+}
+
+.card{
+  background:#181818;
+  border:1px solid #2a2a2a;
+  border-radius:15px;
+  padding:30px;
+  transition:0.3s;
+}
+
+.card:hover{
+  border-color:#ff3c3c;
+  transform:translateY(-5px);
+}
+
+/* MITOS */
+.mitos-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:30px;
+}
+
+.icon{
+  font-size:30px;
+}
+
+/* PERSONALIDADES */
+.personalidades-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.img-placeholder{
+  width:100%;
+  height:180px;
+  background:#2a2a2a;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+/* CUIDADOS */
+ul{
+  max-width:700px;
+  margin:0 auto 50px auto;
+  line-height:2;
+}
+
+.subtitulo{
+  text-align:center;
+  font-size:26px;
+  margin:60px 0 40px 0;
+}
+
+.adicional-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+  max-width:900px;
+  margin:0 auto;
+}
+
+/* LISTX */
+.listx-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:50px;
+}
+
+.listx-text{
+  flex:1;
+}
+
+.listx-img{
+  flex:1;
+  height:300px;
+  background:#2a2a2a;
+  border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  text-align:center;
+  padding:40px 20px;
+  border-top:1px solid #2a2a2a;
+}
+
+.footer-icons{
+  font-size:24px;
+  margin-bottom:20px;
+}
+
+.footer-icons span{
+  margin:0 10px;
+  cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<!-- MITOS Y VERDADES -->
+<section id="resume" class="resume section">
+<h2>Nuestros gatos</h2>
+<p>Los gatos son seres independientes que respetan 
+  su espacio y viven en el presente. Son más expresivos 
+  de lo que creemos; a través de sus bigotes, su cola, 
+  sus maullidos y su mirada, nos dicen mucho más de lo 
+  que imaginamos. Cuando aprendemos a observarlos, 
+  descubrimos un mundo sutil y profundo. 
+  Vivir con un gato es aprender a observar, 
+  a tener paciencia y a entender un lenguaje que no necesita palabras.</p>
+
+<h2>Mitos y verdades</h2>
+<p>Entre mitos y verdades, los gatos siguen siendo misterio… hasta que aprendes a mirarlos bien.</p>
+<div class="mitos-grid">
+
+<div class="card"><div class="icon">🐾</div><h3>Mito 1</h3><p>Los gatos son fríos. <strong>Verdad:</strong> Expresan cariño a su manera.</p></div>
+<div class="card"><div class="icon">🌙</div><h3>Mito 2</h3><p>Ven en total oscuridad. <strong>Verdad:</strong> Necesitan algo de luz.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Mito 3</h3><p>No toman agua. <strong>Verdad:</strong> Requieren hidratación diaria.</p></div>
+<div class="card"><div class="icon">🏠</div><h3>Mito 4</h3><p>No necesitan atención. <strong>Verdad:</strong> Requieren vínculo y juego.</p></div>
+<div class="card"><div class="icon">🐕</div><h3>Mito 5</h3><p>No conviven con perros. <strong>Verdad:</strong> Pueden adaptarse.</p></div>
+<div class="card"><div class="icon">🧠</div><h3>Mito 6</h3><p>No son inteligentes. <strong>Verdad:</strong> Son muy observadores.</p></div>
+<div class="card"><div class="icon">❤️</div><h3>Mito 7</h3><p>No sienten apego. <strong>Verdad:</strong> Forman lazos fuertes.</p></div>
+<div class="card"><div class="icon">🔊</div><h3>Mito 8</h3><p>Siempre maúllan. <strong>Verdad:</strong> Se adaptan al entorno.</p></div>
+<div class="card"><div class="icon">🍽</div><h3>Mito 9</h3><p>Comen cualquier cosa. <strong>Verdad:</strong> Necesitan dieta adecuada.</p></div>
+<div class="card"><div class="icon">🛁</div><h3>Mito 10</h3><p>Odia el agua. <strong>Verdad:</strong> Algunos la toleran.</p></div>
+
+</div>
+</section>
+
+<!-- PERSONALIDADES -->
+<section>
+<h2>Personalidades según su color</h2>
+<p>Un gato no cambia su esencia para encajar contigo; tú aprendes a conocer la suya.</p>
+
+<div class="personalidades-grid">
+
+<div class="card"><div class="img-placeholder"></div><h3>Negro</h3><p>Tranquilo, protector y muy leal.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Blanco</h3><p>Sensible, elegante y reservado.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Naranja</h3><p>Juguetón, sociable y lleno de energía.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Gris</h3><p>Independiente pero afectuoso.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Tricolor</h3><p>Curiosa y con carácter fuerte.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Carey</h3><p>Intensa, protectora y territorial.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Atigrado</h3><p>Equilibrado y adaptable.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Bicolor</h3><p>Afectuoso y estable.</p></div>
+<div class="card"><div class="img-placeholder"></div><h3>Siamés</h3><p>Vocal, inteligente y muy apegado.</p></div>
+
+</div>
+</section>
+
+<!-- CUIDADOS -->
+<section id="services" class="services section">
+<h2>Cuidados Básicos</h2>
+
+<ul>
+<li>Alimentación balanceada según su edad</li>
+<li>Agua fresca disponible todo el día</li>
+<li>Limpieza diaria del arenero</li>
+<li>Vacunas y visitas veterinarias</li>
+<li>Tiempo de juego</li>
+</ul>
+
+<div class="subtitulo">Cuidados adicionales</div>
+
+<div class="adicional-grid">
+<div class="card"><div class="img-placeholder"></div><h3>Estrés o Ansiedad</h3><p>Los gatos pueden ser muy sensibles al ambiente en el que crecen.
+¿Cómo podemos saber si nuestro gato está estresado o tiene ansiedad?</p>
+<p>Generalmente comienzan a maullar con más frecuencia, rondan por la casa sin descanso o se esconden. Algunos incluso dejan de usar su arenero.</p>
+<p>Si notas alguna de estas señales, es importante ayudarlos a sentirse tranquilos, seguros y protegidos. </p></div>
+
+<div class="card"><div class="img-placeholder"></div><h3>Rutina diaria</h3><p>Nuestros gatitos necesitan todos los días agua fresca, alimento adecuado y limpieza constante del arenero.
+<p>También es recomendable dedicar al menos 15 minutos diarios al 
+juego, revisar sus bigotes y observar algunas zonas de su cuerpo para asegurarnos de que todo esté en orden.</p>
+<p>Si tus gatos salen a la calle con frecuencia, recuerda aplicar antiparasitarios y desparasitantes cada mes.</p>
+<p>Protégelos y protégete.</p></div>
+</div>
+
+</section>
+
+<!-- LISTX -->
+<section id="¿Estas listx para tener un gato?" class="¿Estas listx para tener un gato? section"> 
+<h2>¿Estoy listx para tener un gato?</h2>
+
+<div class="listx-container">
+<div class="listx-text">
+<p>
+Adoptar un gato es un compromiso a largo plazo.
+Reflexiona si cuentas con tiempo, estabilidad y recursos
+para ofrecerle un hogar seguro y amoroso.
+</p>
+</div>
+<div class="listx-img"></div>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-icons">
+<span>🐱</span>
+<span>🐾</span>
+<span>📷</span>
+<span>🎵</span>
+<span>📌</span>
+</div>
+<p>Gracias por visitar Chaton</p>
+</footer>
+
+</body>
+</html>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
